@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background: #1F2937
+}
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    margin-left: 100px;
+    color: white;
+}
+
+.top-section-right {
+    display: flex;
+    margin-right: 100px;
+    gap: 20px;
+    color:#E5E7EB
+}
