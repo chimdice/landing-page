@@ -4,14 +4,19 @@ body {
     background: #1F2937
 }
 
+/*This is the style for the top-section of the webpage*/
+
 .top-section {
     display: flex;
     flex-direction: column;
+    gap:40px;
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    gap: 500px
 }
 
 h3 {
@@ -24,4 +29,23 @@ h3 {
     margin-right: 100px;
     gap: 20px;
     color:#E5E7EB
+}
+
+.top-bottom {
+    display: flex;
+    padding:25px;
+    justify-content: center;
+    gap: 50px;
+    color:white;
+}
+
+.top-left {
+    max-width: 400px;
+}
+
+.sign-button {
+    background:#3882F6;
+    display: inline-block;
+    margin-top: 0px;
+    padding: 5px 20px 5px 20px;
 }
