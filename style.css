@@ -77,3 +77,15 @@ h3 {
 .image {
     text-align: center;
 }
+
+/* This is for middle section 2 */
+
+.middle-section-2 {
+    height: 300px;
+    background:#E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color:#1F2937;
+}
