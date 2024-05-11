@@ -1,7 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
-    background: #1F2937
+    background: #1F2937;
+    margin:0px;
 }
 
 /*This is the style for the top-section of the webpage*/
@@ -48,4 +49,31 @@ h3 {
     display: inline-block;
     margin-top: 0px;
     padding: 5px 20px 5px 20px;
+}
+
+/* This is for middle section 1 */
+
+.middle-section-1 {
+    display: flex;
+    flex-direction: column;
+    background:white;
+    margin: 0px;
+}
+
+.middle-top {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.middle-bottom {
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    margin-bottom: 80px;
+}
+
+.image {
+    text-align: center;
 }
